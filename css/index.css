@@ -1,0 +1,83 @@
+body {
+    position: relative;
+    background-color: #EDEDED;
+    text-align: center;
+}
+
+body > * {
+    margin: 0 17%;
+}
+
+header {
+    background-color: rgb(37, 17, 17);
+}
+
+header div {
+    display: flex;
+    position: relative;
+    left: 5%;
+    width: 5%;
+}
+
+header a {
+    color: rgb(189, 115, 115);
+    text-decoration: none; /* links aren't underlined */
+    margin: 10% 30%;
+    /* text-transform: uppercase; */
+}
+
+header a:hover {
+    color: lightgrey;
+}
+
+#home {
+    color: white;
+}
+
+#top {
+    background-color: pink;
+    color: white;
+}
+
+#top h1 {
+    padding: 10%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#top p {
+    padding: 5%;
+}
+
+#middle {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 20pt;
+    padding: 30pt;
+    background-color: lightgreen;
+}
+
+#middle > * {
+    background-color: orange;
+    margin: 8% 10%;
+    padding: 8% 15%;
+}
+
+#middle p {
+    background-color: pink;
+    line-height: 30pt;
+}
+
+#middle div {
+    border: black solid 1pt;
+    width: 50%;
+    height: 30pt;
+    align-content: center;
+    position: relative;
+    left: 25%;
+}
+
+footer {
+    background-color: rgb(67, 28, 28);
+    color: white;
+    padding: 0.5%;
+}
