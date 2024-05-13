@@ -1,11 +1,19 @@
 body {
     position: relative;
-    background-color: #EDEDED;
+    background-color: rgb(224, 206, 203);
     text-align: center;
 }
 
 body > * {
     margin: 0 17%;
+}
+
+a {
+    text-decoration: none; /* links aren't underlined */
+
+    &:hover {
+        text-decoration: none; /* links aren't underlined */
+    }
 }
 
 header {
@@ -21,7 +29,6 @@ header div {
 
 header a {
     color: rgb(189, 115, 115);
-    text-decoration: none; /* links aren't underlined */
     margin: 10% 30%;
     /* text-transform: uppercase; */
 }
@@ -35,17 +42,27 @@ header a:hover {
 }
 
 #top {
-    background-color: pink;
-    color: white;
+    background: url("../assets/cover.jpg");
+    background-position: center;
+    background-size: cover;
+    color: rgb(224, 177, 170);
+    padding-bottom: 2%;
 }
 
 #top h1 {
-    padding: 10%;
+    padding: 8% 20% 3% 5%;
+    /* background-color: green; */
     font-family: 'Courier New', Courier, monospace;
+    font-size: 700%;
 }
 
 #top p {
-    padding: 5%;
+    padding: 5% 5%;
+    margin-right: 75%;
+    text-align: left;
+    font-size: 200%;
+    color: black;
+    background-color: rgb(224, 177, 170);
 }
 
 #middle {
@@ -53,27 +70,87 @@ header a:hover {
     grid-template-columns: 1fr 1fr;
     margin-top: 20pt;
     padding: 30pt;
-    background-color: lightgreen;
+    background: url(../assets/flower-background.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 75%;
 }
 
 #middle > * {
-    background-color: orange;
+    background-color: rgb(227, 192, 187);
     margin: 8% 10%;
     padding: 8% 15%;
 }
 
+#middle article * {
+    padding: 3%;
+}
+
 #middle p {
-    background-color: pink;
     line-height: 30pt;
 }
 
 #middle div {
     border: black solid 1pt;
-    width: 50%;
-    height: 30pt;
+    background-color: rgb(220, 199, 195);
+    width: 45%;
+    height: 25%;
     align-content: center;
     position: relative;
     left: 25%;
+}
+
+#tile1 div {
+    border: #bb7483 solid 1pt;
+}
+
+#tile1 div, #tile1 a {
+    color: #bb7483;
+
+    &:hover {
+        transform: scale(110%);
+        color: rgb(67, 28, 28);
+    }
+}
+
+#tile2 div {
+    border: #8174bb solid 1pt;
+}
+
+#tile2 div, #tile2 a {
+    color: #8174bb;
+
+    &:hover {
+        transform: scale(110%);
+        color: rgb(67, 28, 28);
+    }
+}
+
+#tile3 div {
+    border: #3e6cc1 solid 1pt;
+}
+
+#tile3 div, #tile3 a {
+    color: #3e6cc1;
+
+    &:hover {
+        transform: scale(110%);
+        color: rgb(67, 28, 28);
+    }
+
+}
+
+#tile4 div {
+    border: #b86dc7 solid 1pt;
+}
+
+#tile4 div, #tile4 a {
+    color: #b86dc7;
+
+    &:hover {
+        transform: scale(110%);
+        color: rgb(67, 28, 28);
+    }
 }
 
 footer {
