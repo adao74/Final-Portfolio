@@ -1,0 +1,147 @@
+body {
+    position: relative;
+    background-color: rgb(224, 206, 203);
+    text-align: center;
+}
+
+body > * {
+    margin: 0 17%;
+}
+
+a {
+    text-decoration: none; /* links aren't underlined */
+
+    &:hover {
+        text-decoration: none; /* links aren't underlined */
+    }
+}
+
+header {
+    background-color: rgb(37, 17, 17);
+}
+
+header div {
+    display: flex;
+    position: relative;
+    left: 5%;
+    width: 5%;
+}
+
+header a {
+    color: rgb(189, 115, 115);
+    margin: 10% 30%;
+    /* text-transform: uppercase; */
+}
+
+header a:hover {
+    color: lightgrey;
+}
+
+#about {
+    color: white;
+}
+
+p, h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(228, 216, 214);
+    border-bottom: solid #bb7483 3pt;
+    border-top: solid #bb7483 3pt;
+    position: relative;
+    top: 87%;
+}
+
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 1%;
+    top: 80%;
+}
+
+#top > * {
+    height: 500pt;
+}
+
+#slide1 {
+    background: url("../assets/chimichurri-chicken-1.jpg");
+    background-size: 75%;
+    background-position: center 60%;
+}
+
+#slide2 {
+    background: url("../assets/chimichurri-chicken-2.jpg");
+    background-size: 75%;
+    background-position: 50% 20%;
+}
+
+#slide3 {
+    background: url("../assets/chimichurri-chicken-3.jpg");
+    background-size: 75%;
+    background-position: center;
+}
+
+#middle {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: rgb(227, 192, 187);
+}
+
+#middle > div {
+    height: 290pt;
+    margin: 7%;
+    background-size: cover;
+    background-position: center;
+}
+
+#food1 {
+    background: url("../assets/asparagus-risotto.jpg");
+}
+
+#food2 {
+    background: url("../assets/beef-stroganoff.jpg");
+}
+
+#food3 {
+    background: url("../assets/chicken-artichoke-sauce.jpg");
+}
+
+#food4 {
+    background: url("../assets/chicken-wings.jpg");
+}
+
+#food5 {
+    background: url("../assets/chickpea-tagine.jpg");
+}
+
+#food6 {
+    background: url("../assets/dan-dan-noodles.jpg");
+}
+
+#food7 {
+    background: url("../assets/green-beans.jpg");
+}
+
+#food8 {
+    background: url("../assets/mousakka.jpg");
+}
+
+#food9 {
+    background: url("../assets/mushroom-risotto.jpg");
+}
+
+#food10 {
+    background: url("../assets/okra-and-meatballs.jpg");
+}
+
+#food11 {
+    background: url("../assets/salmon.jpg");
+}
+
+#food12 {
+    background: url("../assets/spaghetti.jpg");
+}
+
+footer {
+    background-color: rgb(67, 28, 28);
+    color: white;
+    padding: 0.5%;
+}
