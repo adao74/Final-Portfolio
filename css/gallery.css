@@ -43,21 +43,30 @@ header a:hover {
 
 h2, h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: rgb(228, 216, 214);
-    border-bottom: solid #bb7483 3pt;
-    border-top: solid #bb7483 3pt;
     padding: 1%;
 }
 
+h2 {
+    background-color: rgb(228, 216, 214);
+    border-bottom: solid #bb7483 3pt;
+    border-top: solid #bb7483 3pt;
+}
 
 p, a {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#top > * {
-    height: 200pt;
+#top h1 {
+    height: 30pt;
 }
 
+i {
+    margin-bottom: 2%;
+}
+
+i:hover {
+    transform: rotate(20deg) scale(120%);
+}
 
 p {
     margin: 20% 20%;
