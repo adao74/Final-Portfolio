@@ -58,15 +58,24 @@ h1, h2 {
 h1 {
     font-size: 30pt;
     letter-spacing: 9pt;
+    padding: 5%;
 }
 
 h2 {
     font-size: 20pt;
     letter-spacing: 2pt;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
 h3 {
     font-size: 15pt;
+    margin-top: 7%;
+}
+
+#title {
+    padding-top: 1%;
+    padding-bottom: 1%;    
 }
 
 main {
@@ -93,6 +102,16 @@ main {
 
 #skills, #work-experience {
     border-top: gray solid 1pt;
+}
+
+.box {
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+
+
+#education > article {
+    padding-top: 7%;
 }
 
 footer {
