@@ -53,14 +53,14 @@ header a:hover {
     padding: 8% 20% 3% 5%;
     /* background-color: green; */
     font-family: 'Courier New', Courier, monospace;
-    font-size: 700%;
+    font-size: 300%;
 }
 
 #top p {
     padding: 5% 5%;
-    margin-right: 75%;
+    margin-right: 65%;
     text-align: left;
-    font-size: 200%;
+    font-size: 150%;
     color: black;
     background-color: rgb(224, 177, 170);
 }
@@ -92,11 +92,13 @@ header a:hover {
 
 #middle div {
     background-color: rgb(220, 199, 195);
-    width: 45%;
-    height: 25%;
+    width: 70%;
+    line-height: 90%;
+    height: 12%;
     align-content: center;
     position: relative;
-    left: 25%;
+    left: 15%;
+    padding: 0;
 }
 
 #tile1 div {
@@ -152,8 +154,25 @@ header a:hover {
     }
 }
 
+
+h2 {
+    font-size: 150%;
+}
+
+a {
+    font-size: 100%;
+}
+
 footer {
     background-color: rgb(67, 28, 28);
     color: white;
     padding: 0.5%;
+}
+
+
+/* Tablet & Desktop */
+@media (min-width: 768px) {
+    #top h1 {
+        font-size: 500%;
+    }
 }
