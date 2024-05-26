@@ -50,6 +50,7 @@ h2 {
     background-color: rgb(228, 216, 214);
     border-bottom: solid #bb7483 3pt;
     border-top: solid #bb7483 3pt;
+    font-size: 100%;
 }
 
 p, a {
