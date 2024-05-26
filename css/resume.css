@@ -78,20 +78,6 @@ h3 {
     padding-bottom: 1%;    
 }
 
-main {
-    display: grid;
-    grid-template-rows: 1fr 7fr;
-}
-
-#middle {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-}
-
-#bottom {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-}
 
 #title {
     border-top: gray solid 1pt;
@@ -118,6 +104,25 @@ footer {
     background-color: rgb(67, 28, 28);
     color: white;
     padding: 0.5%;
+}
+
+
+/* Desktops */
+@media (min-width: 992px) {
+    main {
+        display: grid;
+        grid-template-rows: 1fr 7fr;
+    }
+    
+    #middle {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+    
+    #bottom {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
 }
 
 
