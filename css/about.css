@@ -80,8 +80,6 @@ h1 {
 }
 
 #middle {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
     background-color: rgb(227, 192, 187);
 }
 
@@ -144,4 +142,17 @@ footer {
     background-color: rgb(67, 28, 28);
     color: white;
     padding: 0.5%;
+}
+
+@media (min-width: 768px) {
+    #middle {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 992px) {
+    #middle {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
