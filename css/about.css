@@ -144,6 +144,7 @@ footer {
     padding: 0.5%;
 }
 
+/* Tablet */
 @media (min-width: 768px) {
     #middle {
         display: grid;
@@ -151,6 +152,7 @@ footer {
     }
 }
 
+/* Desktop */
 @media (min-width: 992px) {
     #middle {
         grid-template-columns: repeat(3, 1fr);
